@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "esModuleInterop": true,
+    "module": "commonjs",
+    "outDir": "dist",
+    "sourceMap": true,
+    "strict": true,
+    "target": "es2017",
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowUnreachableCode": false,
+    "types": [
+      "reflect-metadata"
+    ],
+  },
+  "compileOnSave": true,
+  "include": [
+    "*"
+,
+"routes",
+"server.ts",
+]
+}
